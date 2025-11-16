@@ -1,8 +1,8 @@
-*SmartToDo – Personal AI To-Do Assistant*
+🚀 *SmartToDo – Personal AI To-Do Assistant* 🚀
 
 A simple multi-agent system that turns natural language into organized tasks, daily plans, and reflections.
 
-*Overview*
+🌟 *Overview*
 
 SmartToDo is a lightweight personal productivity agent built using Gemini and a multi-agent architecture.
 Users can type tasks in natural language, and the agent system will:
@@ -19,7 +19,7 @@ Users can type tasks in natural language, and the agent system will:
 
 This project was created for the Google x Kaggle AI Agents Capstone (2025) under the Concierge Agents Track.
 
-*Features*
+🌟 *Features*
 
 1. Multi-Agent System
 
@@ -53,7 +53,7 @@ Simple print-based logging:
 
 All 3 agents use Gemini 2.5 Flash (fast + cost-efficient).
 
-*Project Structure*
+🌟 *Project Structure*
 SmartToDo/
 │ app.py
 │ tasks.json
@@ -61,7 +61,7 @@ SmartToDo/
 │ requirements.txt
 └ README.md
 
-*Installation*
+🌟 *Installation*
 1. Install dependencies
 pip install -U google-genai
 
@@ -76,7 +76,7 @@ To persist permanently:
 
 setx GEMINI_API_KEY "YOUR_KEY_HERE"
 
-*Running the Agent*
+🌟 *Running the Agent*
 python app.py
 
 
@@ -89,7 +89,7 @@ You will see a simple menu:
 5) Generate reflection
 6) Exit
 
-*How It Works*
+🌟 *How It Works*
 > Agent 1 – Task Intake Agent
 
 Turns natural language into clean JSON tasks using Gemini.
@@ -108,7 +108,7 @@ Can do later
 
 Analyzes completion and stores a memory entry.
 
-*Limitations*
+🌟 *Limitations*
 
 Only supports single user (session-based)
 
@@ -116,7 +116,7 @@ No web UI (CLI only)
 
 Memory simple (JSON-based)
 
-*Future Improvements*
+🌟 *Future Improvements*
 
 Add reminders
 
@@ -129,5 +129,6 @@ Add categories & tags
 Deploy using Agent Engine on Cloud Run
 
 *License*
+
 
 MIT License.
