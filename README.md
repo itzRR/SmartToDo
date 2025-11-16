@@ -50,11 +50,11 @@ All 3 agents use Gemini 2.5 Flash (fast + cost-efficient).
 
 🌟 *Project Structure*
 SmartToDo/
-│ app.py
-│ tasks.json
-│ memory.json
-│ requirements.txt
-└ README.md
+ app.py
+ tasks.json
+ memory.json
+ requirements.txt
+ README.md
 
 🌟 *Installation*
 1. Install dependencies
@@ -127,5 +127,6 @@ Deploy using Agent Engine on Cloud Run
 
 
 MIT License.
+
 
 
