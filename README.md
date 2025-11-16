@@ -22,7 +22,6 @@ This project was created for the Google x Kaggle AI Agents Capstone (2025) under
 🌟 *Features*
 
 1. Multi-Agent System
-
 Task Intake Agent – extracts tasks from messy input
 
 Planner Agent – creates daily structured plan
@@ -30,19 +29,16 @@ Planner Agent – creates daily structured plan
 Reflection Agent – analyzes completed vs pending tasks
 
 2. Tools
-
 Custom TaskStore tool (add/list/update tasks)
 
 JSON persistence (tasks.json)
 
 3. Memory
-
 Long-term memory saved as memory.json
 
 Stores daily reflections and performance
 
 4. Observability
-
 Simple print-based logging:
 
 [IntakeAgent] Created 3 tasks
@@ -50,7 +46,6 @@ Simple print-based logging:
 [ReflectionAgent] Reflection saved
 
 5. Gemini Usage
-
 All 3 agents use Gemini 2.5 Flash (fast + cost-efficient).
 
 🌟 *Project Structure*
@@ -132,3 +127,4 @@ Deploy using Agent Engine on Cloud Run
 
 
 MIT License.
+
