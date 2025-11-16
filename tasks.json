@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Have meeting",
+      "due": "today",
+      "priority": "medium",
+      "category": "work",
+      "status": "pending",
+      "created_date": "2025-11-16"
+    },
+    {
+      "id": 2,
+      "title": "official call",
+      "due": "unspecified",
+      "priority": "medium",
+      "category": "work",
+      "status": "pending",
+      "created_date": "2025-11-16"
+    }
+  ],
+  "next_id": 3
+}
